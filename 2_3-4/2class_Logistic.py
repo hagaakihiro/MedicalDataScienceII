@@ -27,6 +27,20 @@ if __name__ == '__main__':
     plt.tight_layout()
     #plt.show()
     #sys.exit()
+    plt.close()
+
+    # histogram plot
+    plt.hist (df_1["x1"], density=True, alpha=0.5, label="x1:class1")
+    plt.hist (df_2["x1"], density=True, alpha=0.5, label="x1:class2")
+    plt.xlabel("x1")
+    plt.legend()
+    plt.show()
+    plt.hist (df_1["x2"], density=True, alpha=0.5, label="x2:class1")
+    plt.hist (df_2["x2"], density=True, alpha=0.5, label="x2:class1")
+    plt.xlabel("x2")
+    plt.legend()
+    plt.show()
+    #sys.exit()
     # Data plot -- end
     
     # Clasification
