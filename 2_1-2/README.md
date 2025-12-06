@@ -185,10 +185,10 @@ producted_data.csvのデータを、図5-2右の
 producted_data.csvのx1とx2のヒストグラムを作成せよ。
 
 (参考)
-"""py
+```py
 plt.hist (df_1["x1"], density=True, alpha=0.5, label="x1:class1")
 plt.show()
-"""
+```
 
 
 
