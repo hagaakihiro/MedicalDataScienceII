@@ -181,6 +181,16 @@ producted_data.csvを使う。Excelで開いて図1のような構造が入っ�
 producted_data.csvのデータを、図5-2右の
 コードを参考にしてpythonで可視化せよ。
 
+**練習2:**
+producted_data.csvのx1とx2のヒストグラムを作成せよ。
+
+(参考)
+"""py
+plt.hist (df_1["x1"], density=True, alpha=0.5, label="x1:class1")
+plt.show()
+"""
+
+
 
 データ分類は、表示した図で言えば赤丸と青丸を分ける<u>境界を線引きする</u>ことを意味する。
 言い換えると、<u>$x1$と$x2$の数値を与えた時どちらに分類されるかを予測する</u>ということである。
